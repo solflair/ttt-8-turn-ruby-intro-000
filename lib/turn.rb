@@ -1,9 +1,9 @@
 def display_board(board)
-  puts " |   |   | "
-  puts "----------------------------------------"
-  puts " |   |   | "
-  puts "----------------------------------------"
-  puts " |   |   | "
+  puts " X | X | X | "
+  puts "-------------"
+  puts " X | O | O | "
+  puts "-------------"
+  puts " X | O | O | "
 end
 
 def turn(board)
