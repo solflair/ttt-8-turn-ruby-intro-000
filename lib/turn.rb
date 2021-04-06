@@ -19,15 +19,9 @@ def input_to_index(user_input)
    user_input.to_i - 1
 end
 
-def valid_move?(board, index)
-  if position_taken?(board, index)
-    return false
-  else
-    return true
-  end
-
+def move(board, index, player)
+   board[index] = player
 end
-
 
 def position_taken?(board, index)
    if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
