@@ -7,7 +7,6 @@ def display_board(board)
 end
 
 def move(board, index)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   move(board, 0, "O")
   move(board, 8, "X")
 end  
