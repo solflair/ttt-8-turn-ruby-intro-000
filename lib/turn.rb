@@ -9,7 +9,7 @@ end
 def move(board, index)
   move(board, 0, "O")
   move(board, 8, "X")
-end  
+end
 
 def turn(board)
   puts "Please enter 1-9:"
