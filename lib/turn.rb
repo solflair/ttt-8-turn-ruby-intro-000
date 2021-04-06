@@ -11,6 +11,10 @@ def turn(board)
   puts "Please enter 1-9:"
 end
 
+def input_to_index
+  user_input = user_input - 1
+end
+
 def valid_move?(board, index)
   if position_taken?(board, index) || !spot_exists?(board, index)
     return false
